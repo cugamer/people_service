@@ -32,6 +32,7 @@ class PeopleApi < Grape::API
 
     desc 'Update an person'
     params do
+      optional :id, type: String, desc: 'The id of the person'
       optional :name, type: String, desc: 'The Name of the person'
       optional :job_title, type: String, desc: 'The Job Title of the person'
       optional :email, type: String, desc: 'The Email Address of the person'
