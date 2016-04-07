@@ -1,3 +1,4 @@
-# Welcome to Napa
+Napa tutorial
+=============
 
-TODO: Add an awesome README that explains how all this stuff works!
+ A tutorial in the use of the Napa api gem.  Api can be used to view, create and modify Person objects.  Application deployed and [usable here](http://cryptic-caverns-10418.herokuapp.com/people).
